@@ -31,7 +31,7 @@ vypisText('Počet jmen v poli: ' + jmena.length);
 // 1. Jana
 // 2. Marie
 // atd.
-
+jmena.forEach(vypisTextSIndexem);
 
 
 
@@ -62,4 +62,8 @@ vypisText('Počet jmen v poli: ' + jmena.length);
 // *********************************************
 function vypisText(txt) {
     document.querySelector('#vystup').innerText += txt + '\n';
+}
+
+function vypisTextSIndexem(element, index) {
+    document.querySelector('#vystup').innerText += index + '. ' + element + '\n';
 }
