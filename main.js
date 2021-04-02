@@ -19,7 +19,7 @@ vypisText(jmena[2]);
 
 // Úkol 3 - Kolik jmen je v poli?
 // Pole má vlastnost pole.length
-
+vypisText('Počet jmen v poli: ' + jmena.length);
 
 
 
