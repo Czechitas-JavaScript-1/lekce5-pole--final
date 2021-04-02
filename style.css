@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Paytone+One&subset=latin-ext');
+
+/* Tady je magie a jednorožci */
+html { box-sizing: border-box; }
+*, ::before, :after { box-sizing: inherit; }
+
+body {
+	margin: 0;
+	padding: 40px;
+	min-height: 100vh;
+	padding: 20px;
+	font: 16px/1.5 sans-serif;
+	background: url('images/pole.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+h1 {
+	font-family: 'Paytone One', sans-serif;
+	font-size: 60px;
+	color: black;
+	text-align: center;
+	margin-top: 0;
+}
+
+#vystup {
+	max-width: 800px;
+	margin: 30px auto;
+	padding: 30px;
+	font: 18px/1.5 monospace;
+	background-color: rgba(255, 255, 255, 0.85);
+	border: 2px solid #341803;
+	border-radius: 5px;
+}
