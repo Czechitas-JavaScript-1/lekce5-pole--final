@@ -11,7 +11,7 @@ vypisText(jmena);
 
 // Úkol 2 - Vypiš třetí jméno v pořadí
 // Nezapomeň, že pole se čísluje od 0
-
+vypisText(jmena[2]);
 
 
 
