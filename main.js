@@ -49,11 +49,11 @@ vypisText(jmena);
 // obě jména a pak i výsledné pole
 // pole.shift()
 // pole.pop()
-
-
-
-
-
+let prvni = jmena.shift();
+let posledni = jmena.pop();
+vypisText(prvni);
+vypisText(posledni);
+vypisText(jmena);
 
 
 
