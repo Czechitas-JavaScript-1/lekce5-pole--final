@@ -5,9 +5,8 @@
 
 // Úkol 1 - Založ nové pole se seznamem jmen (alespoň 5)
 // Vypiš jeho obsah do stránky - JavaScript spojí pole automaticky do řetězce
-
-
-
+let jmena = ['Alena', 'Jana', 'Marie', 'Filoména', 'Hortenzie'];
+vypisText(jmena);
 
 
 // Úkol 2 - Vypiš třetí jméno v pořadí
