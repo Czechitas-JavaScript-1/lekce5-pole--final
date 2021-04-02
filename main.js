@@ -37,11 +37,11 @@ jmena.forEach(vypisTextSIndexem);
 
 
 // Úkol 5 - přidej na konec pole další jméno
-// pole.push()
-// pole.unshift()
+// OK: pole.push()
+// NOK: pole.unshift() - tato funkce přidává na začátek pole
 // Doplněný seznam jmen vypiš (jednoduše jako v příkladu 1)
-
-
+jmena.push('Kroketa');
+vypisText(jmena);
 
 
 
